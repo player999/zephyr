@@ -1,0 +1,3 @@
+config BOARD_QEMU_STM32F103
+	bool "STM32F103 generic model for QEMU"
+	depends on SOC_STM32F103XB

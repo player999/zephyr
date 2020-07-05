@@ -1,0 +1,14 @@
+identifier: qemu_stm32f103
+name: Qemu STM32F103 generic model
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 20
+flash: 128
+supported:
+  - gpio
+  - spi
+  - adc

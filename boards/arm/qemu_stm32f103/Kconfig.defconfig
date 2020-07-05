@@ -1,0 +1,6 @@
+if BOARD_QEMU_STM32F103
+
+config BOARD
+	default "qemu_stm32f103"
+
+endif # BOARD_QEMU_STM32F103
